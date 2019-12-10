@@ -1,0 +1,1150 @@
+.header {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: $color-primary;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    text-align: center;
+}
+.form101 {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    
+    &__bg1, &__bg2 {
+        width: 100%;
+        height: 1700px;
+        position: relative;
+        z-index: -1;
+        right: 0;
+    }
+    &__bg1 {
+        top: 0;
+    }
+    &__bg2 {
+        top: 15px;
+    }
+    &__year {
+        top: 180px;
+        left: 37.5%;
+        width: 10%;
+    }
+    &__id {
+        top: 430px;
+        left: 74%;
+        width: 16%;
+        height: 25px;
+    }
+    &__lname {
+        top: 430px;
+        height: 25px;
+        width: 20%;
+        left: 53%;
+    }
+    &__fname {
+        top: 430px;
+        height: 25px;
+        width: 16%;
+        left: 35.5%;
+    }
+    &__dob {
+        top: 430px;
+        height: 25px;
+        width: 15%;
+        left: 20%;
+    }
+    &__doa {
+        top: 430px;
+        height: 25px;
+        width: 14%;
+        left: 5%;
+    }
+    &__street {
+        top: 478px;
+        height: 20px;
+        width: 18%;
+        left: 70.5%;
+    }
+    &__adress {
+        top: 478px;
+        height: 20px;
+        width: 4%;
+        left: 65.5%;
+    }
+    &__city {
+        top: 478px;
+        height: 20px;
+        width: 12%;
+        left: 53%;
+    }
+    &__zip {
+        top: 478px;
+        height: 20px;
+        width: 12%;
+        left: 40%;
+    }
+    &__phone {
+        top: 478px;
+        height: 20px;
+        width: 16%;
+        left: 22.5%;
+    }
+    &__mobile {
+        top: 478px;
+        height: 20px;
+        width: 16%;
+        left: 5%;
+    }
+    &__male {
+        top: 547px;
+        left: 88%;
+    }
+    &__female {
+        top: 574px;
+        left: 88%;
+    }
+    &__single {
+        top: 545px;
+        left: 79.6%;
+    }
+    &__married {
+        top: 545px;
+        left: 69%;
+    }
+    &__div {
+        top: 545px;
+        left: 57.7%;
+    }
+    &__wid {
+        top: 572px;
+        left: 79.6%;
+    }
+    &__sep {
+        top: 572px;
+        left: 71%;
+    }
+    &__resYes {
+        top: 546px;
+        left: 46.6%;
+    }
+    &__resNo {
+        top: 572px;
+        left: 46.6%;
+    }
+    &__kibYes {
+        top: 547px;
+        left: 33.3%;
+    }
+    &__kibNo {
+        top: 573px;
+        left: 33.3%;
+    }
+    &__hmoNo {
+        top: 545px;
+        left: 21.5%;
+    }
+    &__hmoYes {
+        top: 570px;
+        left: 21.5%;
+    }
+    &__hmo {
+        top: 570px;
+        left: 5%;
+        height: 20px;
+        width: 7.5%;
+    }
+    &__workStart {
+        top: 737px;
+        left: 5.5%;
+        height: 30px;
+        width: 14%;
+    }
+    &__regular {
+        top: 704px;
+        left: 40.1%;
+    }
+    &__2jobs {
+        top: 729px;
+        left: 40.1%;
+    }
+    &__part {
+        top: 753px;
+        left: 40.1%;
+    }
+    &__day {
+        top: 777px;
+        left: 40.1%;
+    }
+    &__pension {
+        top: 801px;
+        left: 40.1%;
+    }
+    &__stipend {
+        top: 826px;
+        left: 40.1%;
+    }
+    &__c1Posession {
+        top: 753px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c1Pension {
+        top: 753px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c1Name {
+        top: 760px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c1Id {
+        top: 760px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c1Dob {
+        top: 760px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    
+    &__c2Posession {
+        top: 800px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c2Pension {
+        top: 800px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c2Name {
+        top: 804px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c2Id {
+        top: 804px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c2Dob {
+        top: 804px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    
+    &__c3Posession {
+        top: 845px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c3Pension {
+        top: 845px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c3Name {
+        top: 849px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c3Id {
+        top: 849px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c3Dob {
+        top: 849px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c4Posession {
+        top: 890px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c4Pension {
+        top: 890px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c4Name {
+        top: 890px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c4Id {
+        top: 890px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c4Dob {
+        top: 890px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c5Posession {
+        top: 930px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c5Pension {
+        top: 930px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c5Name {
+        top: 935px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c5Id {
+        top: 935px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c5Dob {
+        top: 935px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c6Posession {
+        top: 975px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c6Pension {
+        top: 975px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c6Name {
+        top: 980px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c6Id {
+        top: 980px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c6Dob {
+        top: 980px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c7Posession {
+        top: 1020px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c7Pension {
+        top: 1020px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c7Name {
+        top: 1025px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c7Id {
+        top: 1025px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c7Dob {
+        top: 1025px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c8Posession {
+        top: 1065px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c8Pension {
+        top: 1065px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c8Name {
+        top: 1070px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c8Id {
+        top: 1070px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c8Dob {
+        top: 1070px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c9Posession {
+        top: 1110px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c9Pension {
+        top: 1110px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c9Name {
+        top: 1115px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c9Id {
+        top: 1115px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c9Dob {
+        top: 1115px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c10Posession {
+        top: 1155px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c10Pension {
+        top: 1155px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c10Name {
+        top: 1158px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c10Id {
+        top: 1158px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c10Dob {
+        top: 1158px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c11Posession {
+        top: 1200px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c11Pension {
+        top: 1200px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c11Name {
+        top: 1200px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c11Id {
+        top: 1200px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c11Dob {
+        top: 1200px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c12Posession {
+        top: 1245px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c12Pension {
+        top: 1245px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c12Name {
+        top: 1245px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c12Id {
+        top: 1245px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c12Dob {
+        top: 1245px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__c13Posession {
+        top: 1285px;
+        left: 89.4%;
+        height: 30px;
+    }
+    &__c13Pension {
+        top: 1285px;
+        left: 87.6%;
+        height: 30px;
+    }
+    &__c13Name {
+        top: 1290px;
+        height: 28px;
+        width: 11%;
+        left: 75.5%;
+    }
+    &__c13Id {
+        top: 1290px;
+        height: 28px;
+        width: 16%;
+        left: 58.5%;
+    }
+    &__c13Dob {
+        top: 1290px;
+        height: 28px;
+        width: 14%;
+        left: 43.5%;
+    }
+    &__OIno {
+        top: 900px;
+        left: 39.7%;
+    }
+    &__OIyes {
+        top: 927px;
+        left: 39.7%;
+    }
+    &__Msalary {
+        top: 952px;
+        left: 39.8%;
+    }
+    &__EXsalary {
+        top: 973px;
+        left: 39.8%;
+    }
+    &__Psalary {
+        top: 995px;
+        left: 39.8%;
+    }
+    &__Dsalary {
+        top: 1018px;
+        left: 39.8%;
+    }
+    &__PENsalary {
+        top: 952px;
+        left: 18.5%;
+    }
+    &__Ssalary {
+        top: 973px;
+        left: 18.5%;
+    }
+    &__Osalary {
+        top: 995px;
+        left: 18.5%;
+    }
+    &__incomeOther {
+        top: 1015px;
+        left: 5%;
+        height: 24px;
+        width: 12.5%;
+    }
+    &__income1 {
+        top: 1066px;
+        left: 39.7%;
+    }
+    &__income2 {
+        top: 1113px;
+        left: 39.7%;
+    }
+    &__income3 {
+        top: 1162px;
+        left: 39.7%;
+    }
+    &__income4 {
+        top: 1231px;
+        left: 39.7%;
+    }
+    &__partnerId {
+        top: 1388px;
+        left: 74%;
+        height: 24px;
+        width: 15.5%;
+    }
+    &__partnerLname {
+        top: 1388px;
+        left: 54%;
+        height: 24px;
+        width: 18%;
+    }
+    &__partnerFname {
+        top: 1388px;
+        left: 36%;
+        height: 24px;
+        width: 14.5%;
+    }
+    &__partnerDob {
+        top: 1388px;
+        left: 20%;
+        height: 24px;
+        width: 14.5%;
+    }
+    &__partnerDoa {
+        top: 1388px;
+        left: 5%;
+        height: 24px;
+        width: 14.5%;
+    }
+    &__PIno {
+        top: 1429px;
+        left: 85%;
+    }
+    &__PIyes {
+        top: 1429px;
+        left: 55.3%;
+    }
+    &__PIT1 {
+        top: 1430px;
+        left: 34.5%;
+    }
+    &__PIT2 {
+        top: 1430px;
+        left: 20.2%;
+    }
+    &__changeYear1 {
+        top: 1530px;
+        left: 81.5%;
+        height: 25px;
+        width: 8.5%;
+    }
+    &__changeDetails1 {
+        top: 1530px;
+        left: 32%;
+        height: 25px;
+        width: 48%;
+    }
+    &__changeMsg1 {
+        top: 1530px;
+        left: 19.5%;
+        height: 25px;
+        width: 12%;
+    }
+    &__changeSig1 {
+        top: 1530px;
+        left: 5.5%;
+        height: 25px;
+        width: 12%;
+        border-color: $color-primary;
+        background-color: $color-tertiary;
+        position: absolute;
+    }
+    &__changeYear2 {
+        top: 1565px;
+        left: 81.5%;
+        height: 25px;
+        width: 8.5%;
+    }
+    &__changeDetails2 {
+        top: 1565px;
+        left: 32%;
+        height: 25px;
+        width: 48%;
+    }
+    &__changeMsg2 {
+        top: 1565px;
+        left: 19.5%;
+        height: 25px;
+        width: 12%;
+    }
+    &__changeSig2 {
+        top: 1565px;
+        left: 5.5%;
+        height: 25px;
+        width: 12%;
+        border-color: $color-primary;
+        background-color: $color-tertiary;
+        position: absolute;
+    }
+    &__changeYear3 {
+        top: 1598px;
+        left: 81.5%;
+        height: 25px;
+        width: 8.5%;
+    }
+    &__changeDetails3 {
+        top: 1598px;
+        left: 32%;
+        height: 25px;
+        width: 48%;
+    }
+    &__changeMsg3 {
+        top: 1598px;
+        left: 19.5%;
+        height: 25px;
+        width: 12%;
+    }
+    &__changeSig3 {
+        top: 1598px;
+        left: 5.5%;
+        height: 25px;
+        width: 12%;
+        border-color: $color-primary;
+        background-color: $color-tertiary;
+        position: absolute;
+    }
+    &__ER1 {
+        top: 1794px;
+        left: 86%;
+    }
+    &__ER2 {
+        top: 1831px;
+        left: 86%;
+    }
+    &__ER3 {
+        top: 1888px;
+        left: 86%;
+    }
+    &__ER3date {
+        top: 1880px;
+        left: 42.5%;
+        height: 25px;
+        width: 12%;
+    }
+    &__ER3adress {
+        top: 1910px;
+        left: 50.5%;
+        height: 24px;
+        width: 22%;
+    }
+    &__ER4 {
+        top: 1948px;
+        left: 86.2%;
+    }
+    &__ER4new {
+        top: 1949px;
+        left: 80%;
+    }
+    &__ER4return {
+        top: 1949px;
+        left: 66.8%;
+    }
+    &__ER4date {
+        top: 1946px;
+        left: 38%;
+        height: 24px;
+        width: 10%;
+    }
+    &__ER4date2 {
+        top: 1974px;
+        left: 32%;
+        height: 24px;
+        width: 9.5%;
+    }
+    &__ER5 {
+        top: 2054px;
+        left: 86%;
+    }
+    &__ER6 {
+        top: 2108px;
+        left: 86%;
+    }
+    &__ER7 {
+        top: 2159px;
+        left: 86%;
+    }
+    &__ER7born {
+        top: 2204px;
+        left: 83.9%;
+    }
+    &__ER7under5 {
+        top: 2228px;
+        left: 83.9%;
+    }
+    &__ER7bornNum {
+        top: 2203px;
+        left: 61.6%;
+        width: 4rem;
+    }
+    &__ER7under5Num {
+        top: 2225px;
+        left: 47%;
+        width: 4rem;
+    }
+    &__ER7under17 {
+        top: 2205px;
+        left: 43.1%;
+    }
+    &__ER7under18 {
+        top: 2228px;
+        left: 43.1%;
+    }
+    &__ER7under17Num {
+        top: 2203px;
+        left: 6.5%;
+        width: 4rem;
+    }
+    &__ER7under18Num {
+        top: 2225px;
+        left: 13.5%;
+        width: 4rem;
+    }
+    &__ER8 {
+        top: 2265px;
+        left: 86%;
+    }
+    &__ER8born {
+        top: 2291px;
+        left: 84%;
+    }
+    &__ER8under5 {
+        top: 2316px;
+        left: 84.1%;
+    }
+    &__ER8bornNum {
+        top: 2290px;
+        left: 62%;
+        width: 4rem;
+    }
+    &__ER8under5Num {
+        top: 2315px;
+        left: 47.5%;
+        width: 4rem;
+    }
+    &__ER9 {
+        top: 2352px;
+        left: 86%;
+    }
+    &__ER10 {
+        top: 2387px;
+        left: 86%;
+    }
+    &__ER11 {
+        top: 2437px;
+        left: 86%;
+    }
+    &__ER12 {
+        top: 2488px;
+        left: 86%;
+    }
+    &__ER13 {
+        top: 2523px;
+        left: 86%;
+    }
+    &__ER14 {
+        top: 2558px;
+        left: 86%;
+    }
+    &__ER14date1 {
+        top: 2552px;
+        left: 33%;
+        height: 22px;
+        width: 9%;
+    }
+    &__ER14date2 {
+        top: 2552px;
+        left: 10%;
+        height: 22px;
+        width: 10%;
+    }
+    &__ER15 {
+        top: 2608px;
+        left: 86%;
+    }
+    &__TCno {
+        top: 2664px;
+        left: 86.3%;
+    }
+    &__TCyes {
+        top: 2723px;
+        left: 86.3%;
+    }
+    &__EN1 {
+        top: 2798px;
+        left: 75%;
+        height: 25px;
+        width: 15%;
+    }
+    &__EA1 {
+        top: 2798px;
+        left: 53%;
+        height: 25px;
+        width: 20%;
+    }
+    &__ENum1 {
+        top: 2798px;
+        left: 41%;
+        height: 25px;
+        width: 10%;
+    }
+    &__ET1 {
+        top: 2798px;
+        left: 29%;
+        height: 25px;
+        width: 8%;
+    }
+    &__MI1 {
+        top: 2798px;
+        left: 17%;
+        height: 25px;
+        width: 11%;
+    }
+    &__TC1 {
+        top: 2798px;
+        left: 5%;
+        height: 25px;
+        width: 11%;
+    }
+    &__EN2 {
+        top: 2835px;
+        left: 75%;
+        height: 25px;
+        width: 15%;
+    }
+    &__EA2 {
+        top: 2835px;
+        left: 53%;
+        height: 25px;
+        width: 20%;
+    }
+    &__ENum2 {
+        top: 2835px;
+        left: 41%;
+        height: 25px;
+        width: 10%;
+    }
+    &__ET2 {
+        top: 2835px;
+        left: 29%;
+        height: 25px;
+        width: 8%;
+    }
+    &__MI2 {
+        top: 2835px;
+        left: 17%;
+        height: 25px;
+        width: 11%;
+    }
+    &__TC2 {
+        top: 2835px;
+        left: 5%;
+        height: 25px;
+        width: 11%;
+    }
+    &__EN3 {
+        top: 2870px;
+        left: 75%;
+        height: 25px;
+        width: 15%;
+    }
+    &__EA3 {
+        top: 2870px;
+        left: 53%;
+        height: 25px;
+        width: 20%;
+    }
+    &__ENum3 {
+        top: 2870px;
+        left: 41%;
+        height: 25px;
+        width: 10%;
+    }
+    &__ET3 {
+        top: 2870px;
+        left: 29%;
+        height: 25px;
+        width: 8%;
+    }
+    &__MI3 {
+        top: 2870px;
+        left: 17%;
+        height: 25px;
+        width: 11%;
+    }
+    &__TC3 {
+        top: 2870px;
+        left: 5%;
+        height: 25px;
+        width: 11%;
+    }
+    &__AA {
+        top: 2906px;
+        left: 86.3%;
+    }
+    &__date {
+        top: 3005px;
+        left: 25%;
+        height: 25px;
+        width: 12%;
+    }
+    &__signature {
+        top: 3005px;
+        left: 7%;
+        height: 25px;
+        width: 12%;
+        border-color: $color-primary;
+        background-color: $color-tertiary;
+        position: absolute;
+
+        &.unValid {
+            border-color: $color-danger;
+        }
+    }
+}
+.cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 998;
+    background-color: rgba($color-secondary, .75);
+    transform: scale(0);
+    opacity: 0;
+    transition: opacity .4s linear;
+
+    &.active {
+        transform: scale(1);
+        opacity: 1;
+    }
+    &.active>.modal {
+        transform: translateY(0);
+    }
+    &.err, &.ans {
+        background-color: transparent;
+    }
+    .modal {
+        direction: rtl;
+        font-size: 1.8rem;
+        font-weight: 700;
+        width: 80rem;
+        height: 50rem;
+        background-color: $color-white;
+        position: fixed;
+        z-index: 999;
+        top: 20rem;
+        left: calc(50% - 40rem);
+        box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+        border-radius: 1rem;
+        overflow: hidden;
+        transform: translateY(-100rem);
+        transition: all .4s linear;
+
+        &.err, &.ans {
+            width: 40rem;
+            height: 20rem;
+            left: calc(50% - 20rem);
+            top: 30rem;
+            background-color: $color-white;
+        }
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background-color: darken($color-white, 40%);
+
+            &.err {
+                text-align: center;
+                display: block;
+            }
+            &.ans {
+                display: block;
+                text-align: left;
+            }
+            &>.x {
+               cursor: pointer; 
+            }
+        }
+        &__body {
+            padding: 1rem 2rem;
+            height: 80%;
+            text-align: center;
+            
+            &__good.hide, &__bad.hide {
+                display: none;
+            }
+            &.ans {
+                padding: 2rem 0;
+            }
+            #sig-pad {
+                height: 20rem;
+                width: 60rem;
+                border: 2px solid black;
+                margin-top: 4rem;
+                direction: rtl;
+            }
+            & .btn {
+                display: inline-block;
+                margin: 0 1rem;
+
+                &.ans {
+                    margin-top: 2rem;
+                }
+                &.clean {
+                    background-color: $color-danger;
+                }
+                &.approve {
+                    background-color: $color-success;
+                }
+            }
+        }
+        &__footer {
+            text-align: center;
+        }
+        &__btn.err {
+            padding: .5rem 1.5rem;
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .form101 {
+      width: 900px;
+    }
+}
